@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+  <header class="container-fluid sticky-top bg-white">
+    <section class="row p-3 justify-content-between align-items-center">
+      <div class="col-6 col-md-2 text-center">
+        <p class="header-title m-0">Gourmet au Catering</p>
+      </div>
+      <div class="d-none col-6 d-md-flex justify-content-end">
+        <p class="px-4 m-0 header-title">About</p>
+        <p class="px-4 m-0 header-title">Menu</p>
+        <p class="px-4 m-0 header-title">Contact</p>
+      </div>
+    </section>
+  </header>
+  <main class="container-fluid">
+
+    <!-- SECTION HERO -->
+    <section class="row position-relative">
+      <div class="col-12 p-0">
+        <img class="img-fluid"
+          src="https://plus.unsplash.com/premium_photo-1671559021919-19d9610c8cad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
+          alt="Hero-Burger">
+      </div>
+      <div class="col-12 hero-position fs-2 ps-4">
+        <p>Le Catering</p>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="row my-5 m-md-5">
+      <div class="d-none d-md-block col-6 p-4">
+        <img class="img-fluid rounded"
+          src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80"
+          alt="food">
+      </div>
+      <div class="col-12 col-md-6 p-4">
+        <h3 class="text-center">About Catering</h3>
+        <p class="text-center pt-5">Tradition since 1889</p>
+        <div class="d-flex flex-wrap">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa quo ratione, est eius deleniti
+            asperiores reiciendis corrupti excepturi incidunt dolores cumque nobis? Molestiae fugiat ullam vero dolores
+            amet tempore. Dolor totam incidunt explicabo beatae, nemo optio ipsa sunt ut ducimus distinctio rerum ipsam,
+            sit expedita excepturi, id nesciunt. Consequatur voluptatum quo distinctio quod asperiores
+            <span class="seasonal px-2">seasonal</span>
+            praesentium.
+          </p>
+        </div>
+
+        <p class="sub-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore modi quas sint, illo
+          consectetur quis
+          delectus nulla recusandae nemo tempora nam reprehenderit deserunt sed magni. Enim officia veniam aliquid.
+          Dignissimos optio dolor praesentium fugiat, unde veritatis sit ut expedita ex aperiam nobis rem provident aut
+          quisquam atque maiores commodi suscipit!</p>
+      </div>
+    </section>
+
+    <!-- SECTION MENU -->
+    <section class="row my-5 m-md-5">
+      <div class="col-12 col-md-6 p-4">
+        <h3 class="text-center">Our Menu</h3>
+        <h5 class="pt-3">Bread Basket</h5>
+        <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, reiciendis!</p>
+        <h5 class="pt-3">Bread Basket</h5>
+        <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, reiciendis!</p>
+        <h5 class="pt-3">Bread Basket</h5>
+        <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, reiciendis!</p>
+        <h5 class="pt-3">Bread Basket</h5>
+        <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, reiciendis!</p>
+        <h5 class="pt-3">Bread Basket</h5>
+        <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, reiciendis!</p>
+      </div>
+      <div class="col-12 col-md-6 p-4">
+        <img class="img-fluid rounded"
+          src="https://plus.unsplash.com/premium_photo-1663853560438-6cc3a70a3c97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          alt="more food">
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="row mt-5 mx-md-5">
+      <div class="col-12">
+        <h3>Contact</h3>
+        <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium obcaecati eos quibusdam?
+          Voluptate
+          accusantium sint sunt! Doloremque commodi, quam possimus asperiores autem minima inventore repudiandae ea quo,
+          nesciunt hic earum.</p>
+        <h6 class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, qui.</p>
+      </div>
+      <div>
+        <div class="mb-3 pb-3 d-flex align-items-center">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="mb-3 py-3 d-flex border-bottom border-top align-items-center">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="amount" class="form-control" id="exampleFormControlInput1" placeholder="How many people">
+        </div>
+        <div class="mb-3 py-3 d-flex align-items-center">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="calandar" class="form-control" id="exampleFormControlInput1" placeholder="Date">
+        </div>
+        <div class="mb-3 py-3 border-top border-bottom d-flex align-items-center">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="message" class="form-control" id="exampleFormControlInput1"
+            placeholder="Message / Special Requirments">
+        </div>
+      </div>
+    </section>
+
+    <button class="btn btn-secondary mx-md-5 mb-5">Send Message</button>
+  </main>
+
+  <footer class="container-fluid bg-secondary">
+    <section class="row mt-5">
+      <div class="col-12 py-3 align-items-center text-center">
+        <p class="m-0">Powered by link</p>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
